@@ -32,3 +32,14 @@ for line in f:
 
 for i in range(len(salespeople)): # print the report
     print(f'{salespeople[i]} sold {melons_sold[i]} melons')
+
+
+# Improvements: construct a dictionary
+
+# key is salesperson's name
+
+# value is a tuple of total amount of order and melons number
+
+# report_dict[key] = report_dict.get(key, 0) + value
+
+# print items of the salesreport dictionary
